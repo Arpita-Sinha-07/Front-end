@@ -1,0 +1,41 @@
+.hero{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:100px 20px;
+}
+
+.hero h1{
+  font-size:clamp(3rem,8vw,7rem);
+  line-height:1;
+  font-weight:500;
+}
+
+.hero span{
+  background:#cfe0cd;
+  padding:0 20px;
+  border-radius:40px;
+}
+
+.hero p{
+  margin-top:30px;
+  max-width:700px;
+}
+
+.avatars{
+  margin-top:60px;
+  display:flex;
+  gap:25px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.avatars img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+}

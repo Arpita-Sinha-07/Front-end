@@ -1,0 +1,33 @@
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:30px 80px;
+}
+
+.logo{
+  font-size:32px;
+  font-weight:600;
+}
+
+nav{
+  display:flex;
+  gap:30px;
+}
+
+nav a{
+  text-decoration:none;
+  color:#000;
+}
+
+.menu{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.menu span{
+  width:30px;
+  height:2px;
+  background:black;
+}

@@ -1,0 +1,10 @@
+.footer{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:50px;
+  padding:80px 8%;
+}
+
+.footer h4{
+  margin-bottom:20px;
+}

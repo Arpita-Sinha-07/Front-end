@@ -1,0 +1,23 @@
+.about{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  padding:120px 8%;
+  align-items:center;
+}
+
+.about img{
+  width:100%;
+  border-radius:50%;
+}
+
+.about h2{
+  font-size:4rem;
+}
+
+.about button{
+  margin-top:20px;
+  border:none;
+  background:none;
+  cursor:pointer;
+}
