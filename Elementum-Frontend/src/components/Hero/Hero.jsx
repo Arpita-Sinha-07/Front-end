@@ -1,8 +1,13 @@
 import "./Hero.css";
+import p1 from "../../assets/p1.png";
+import p2 from "../../assets/p2.png";
+import p3 from "../../assets/p3.png";
+import p4 from "../../assets/p4.png";
 
 function Hero() {
   return (
     <section className="hero">
+      
       <h1>
         The thinkers  and
         <br />
@@ -19,17 +24,20 @@ function Hero() {
       </p>
 
       <div className="avatars">
-        <img src="https://i.pravatar.cc/200?img=1" className="p1"/>
-        <img src="https://i.pravatar.cc/200?img=2" className="p2"/>
-        <img src="https://i.pravatar.cc/200?img=3" className="p3"/>
+        <img src={p2} className="p1"/>
+        <img src="https://i.pravatar.cc/200?img=1" className="p2"/>
+        <img src={p4} className="p3"/>
         <img src="https://i.pravatar.cc/200?img=4" className="p4"/>
-        <img src="https://i.pravatar.cc/200?img=5" className="p5"/>
-        <img src="https://i.pravatar.cc/200?img=1" className="p6"/>
-        <img src="https://i.pravatar.cc/200?img=2" className="p7"/>
-        <img src="https://i.pravatar.cc/200?img=3" className="p8"/>
+        <img src="https://i.pravatar.cc/200?img=3" className="p5"/>
+        <img src={p3} className="p6"/>
+        <img src={p1} className="p7"/>
+        <img src="https://i.pravatar.cc/200?img=5" className="p8"/>
       </div>
+
+     
     </section>
-  );
+
+  )
 }
 
 export default Hero;

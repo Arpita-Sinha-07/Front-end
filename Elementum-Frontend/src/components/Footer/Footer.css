@@ -1,3 +1,5 @@
+
+
 .footer{
   display:grid;
   grid-template-columns:repeat(4,1fr);
@@ -10,6 +12,7 @@
   margin-bottom:20px;
   padding: 20px 0;
   font-size: larger;
+  font-family: 'New Gerbil';
 }
 
 .footer p{

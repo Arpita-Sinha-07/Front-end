@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/new-gerbil');
 body{
   font-family: 'Syne', sans-serif;
 }
@@ -9,11 +9,15 @@ body{
   padding:0;
   box-sizing:border-box;
 }
+html{
+  scroll-behavior:smooth;
+}
 
 body{
   font-family:'Poppins',sans-serif;
-  background:#f7f7f7;
+  background:#ffffff;
   color:#111;
+  overflow-x:hidden;
 }
 
 img{
@@ -23,6 +27,11 @@ img{
 
 button{
   cursor:pointer;
+}
+
+.container{
+  width:min(90%,1200px);
+  margin:auto;
 }
 
 @media (max-width:1024px){
@@ -56,3 +65,4 @@ button{
     grid-template-columns:1fr;
   }
 }
+

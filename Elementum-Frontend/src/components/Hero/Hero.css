@@ -1,3 +1,6 @@
+
+
+
 .hero{
   min-height:100vh;
   display:flex;
@@ -6,12 +9,16 @@
   align-items:center;
   text-align:center;
   padding:100px 20px;
+  font-weight: 400;
 }
 
 .hero h1{
   font-size:clamp(3rem,8vw,7rem);
   line-height:1;
   font-weight:500;
+  font-family: 'New Gerbil';
+  
+  
 }
 
 .status{

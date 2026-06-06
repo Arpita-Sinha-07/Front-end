@@ -7,6 +7,7 @@
   margin-bottom:50px;
   padding-right: 30px;
   margin-left: 40px;
+  font-family: 'New Gerbil';
   
 }
 
@@ -25,13 +26,14 @@
 .service-row h3{
   font-size:3rem;
   padding:1px 40px;
+  font-family: 'New Gerbil';
 }
 
-.can{
+.services h2 .can{
   background:#d8e5d4;
   padding-top: -100px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 60px;
-  font-size: 5rem;
+  /* font-size: 5rem; */
 }

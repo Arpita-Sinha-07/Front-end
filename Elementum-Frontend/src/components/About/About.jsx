@@ -1,4 +1,6 @@
 import "./About.css";
+import g1 from "../../assets/g1.png"
+import g2 from "../../assets/g2.png"
 
 function About() {
   return (
@@ -19,15 +21,14 @@ function About() {
 
       <div className="about-image">
         <img
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+          src={g1}
           alt=""
         />
       </div>
 
       <div className="about-image">
         <img
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978"
-          alt=""
+          src={g2}
         />
       </div>
 
