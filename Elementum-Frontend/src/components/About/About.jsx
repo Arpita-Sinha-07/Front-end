@@ -19,14 +19,17 @@ function About() {
         
       </div>
 
-      <div className="about-image">
+      <div>
         <img
           src={g1}
           alt=""
         />
       </div>
 
-      <div className="about-image">
+      
+     
+
+      <div>
         <img
           src={g2}
         />

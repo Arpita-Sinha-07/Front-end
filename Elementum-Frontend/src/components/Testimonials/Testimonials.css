@@ -24,3 +24,73 @@ h2{
   border-radius: 60px;
   font-size: 3rem;
 }
+
+.people img {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ph1 {
+  width: 90px;
+  height: 90px;
+
+  left: 70px;
+  top: -400px;
+}
+
+.ph2 {
+  width: 170px;
+  height: 170px;
+
+  left: px;
+  top: -250px;
+}
+
+.ph3 {
+  width: 55px;
+  height: 55px;
+
+  left: 180px;
+  top: -520px;
+}
+
+.ph4 {
+  width: 70px;
+  height: 70px;
+
+  left: -70px;
+  bottom: 600px;
+}
+
+.ph5 {
+  width: 65px;
+  height: 65px;
+
+  right: 200px;
+  top: -600px;
+}
+
+.ph6 {
+  width: 80px;
+  height: 80px;
+
+  right: 140px;
+  top: -610px;
+}
+
+.ph7 {
+  width: 100px;
+  height: 100px;
+
+  right: 40px;
+  top: -440px;
+}
+
+.ph8 {
+  width: 150px;
+  height: 150px;
+
+  right: 0;
+  bottom: 50;
+}
