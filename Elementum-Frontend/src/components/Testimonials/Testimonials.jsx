@@ -6,7 +6,7 @@ function Testimonials() {
     <section className="testimonials">
 
       <h2>
-        What our customer
+        <span className="what">What </span> our customer
         <br />
         says About Us
       </h2>
@@ -14,6 +14,8 @@ function Testimonials() {
       <div className="testimonial-card">
         <p>{testimonials[0].text}</p>
       </div>
+
+      
     </section>
   );
 }

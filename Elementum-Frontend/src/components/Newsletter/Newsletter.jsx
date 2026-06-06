@@ -16,6 +16,8 @@ function Newsletter() {
 
       <button>Subscribe Now</button>
 
+      <div className="footer-divider"></div>
+
     </section>
   );
 }

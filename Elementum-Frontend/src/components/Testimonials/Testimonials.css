@@ -10,3 +10,16 @@
   padding:50px;
   border-radius:40px;
 }
+
+h2{
+  font-size: 3rem;
+}
+
+.what{
+  background:#cfe0cd;
+  padding-top: -100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 60px;
+  font-size: 3rem;
+}

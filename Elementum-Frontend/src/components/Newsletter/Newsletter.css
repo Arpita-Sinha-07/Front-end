@@ -16,3 +16,10 @@
   background:black;
   color:white;
 }
+
+.footer-divider {
+  width: 10%;
+  height: 10px;
+  background-color: #6b6b6b;
+  margin: 50px 0;
+}

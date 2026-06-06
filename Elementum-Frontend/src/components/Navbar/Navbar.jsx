@@ -13,7 +13,7 @@ function Navbar() {
         <a href="#">FAQs</a>
       </nav>
 
-      <div className="menu">
+      <div className="menu" >
         <span></span>
         <span></span>
       </div>

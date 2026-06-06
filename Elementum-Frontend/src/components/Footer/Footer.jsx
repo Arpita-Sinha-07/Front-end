@@ -4,6 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
 
+      
       <div>
         <h4>Company</h4>
         <p>Home</p>
@@ -29,10 +30,15 @@ function Footer() {
 
       <div>
         <h4>Contact</h4>
-        <p>1498 W Fulton St.</p>
-        <p>Chicago, IL</p>
+        <p>1498 W Fulton St. <br />Chicago, IL</p>
+        
         <p>(123)456-7890</p>
+        <p>info@Elementum.com</p>
       </div>
+
+      <p className="copyright">
+        ©2023 Elementum. All rights reserved
+      </p>
 
     </footer>
   );
